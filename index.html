@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>NetPurple - Home</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/main.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="logoContainer"><img src="images/logo.png" alt="logo" class="logo"></a>
+        <ul class="navigation">
+            <li class="navLinks"><a href="index.html">HOME</a></li>
+            <!-- <li class="navLinks"><a href="pages/movies.html">MOVIES</a></li>
+            <li class="navLinks"><a href="pages/tv.html">TV</a></li> -->
+        </ul>
+    </header>
+
+    <main>
+        <div class="content">
+            <h1>NetPurple</h1>
+            <p>NetPurple helps you find your next thing to watch!</p>
+        </div>
+        <!-- <div class="search">
+            <input id="searchItem" class="searchInput" placeholder="By Name">
+            <button class="findItem" id="mainBtn">Search</button>
+        </div> -->
+        <div class="categories">
+            <!-- <select class="dropdownCategories" id="languages" name="languages">
+                <option value="languages" class="dropdownOption">Languages</option>
+            </select>
+            <select class="dropdownCategories" id="genre" name="genre">
+                <option value="genre" class="dropdownOption">Genre</option>
+            </select> -->
+            <button class="selectCategories" id="discover">Discover</button>
+            <button class="selectCategories" id="topRated">Top-rated</button>
+            <button class="selectCategories" id="upcoming">Upcoming</button>
+            <button class="selectCategories" id="popular">Popular</button>
+            <!-- <button class="selectCategories" id="latest">Latest</button> -->
+            <button class="selectCategories" id="trending">Trending</button>
+        </div>
+        <div id="homeOutput" class="output">
+            <div class="movieSection" id="movieSectionId">
+                <h2>Movies Section </h2>
+                <div class="cardsContainer" id="movieCardsContainer">
+                </div>
+            </div>
+            <div class="tvmovieSection" id="tvSectionId">
+                <h2>TV Section </h2>
+                <div class="cardsContainer" id="tvCardsContainer">
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p class="attribution">&copy;TMDb - Data Source: <a href="https://www.themoviedb.org/" target="_blank">The Movie
+                Db - For
+                Academic,
+                Non-Commercial Use</a></p>
+    </footer>
+</body>
+
+</html>
